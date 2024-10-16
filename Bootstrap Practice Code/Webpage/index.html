@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>The World of Tea</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg custom-bg navbar-dark py-3 fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">The World of Tea</a>
+
+            <!-- Collapsed Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar items -->
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#learn" class="nav-link">Learn</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#faq" class="nav-link">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Showcase -->
+     <section class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <!-- Showcase Text -->
+                <div>
+                    <h1>Explore the <span class="text-warning">World of Tea</span></h1>
+                    <p class="lead my-4">
+                        Welcome to The World of Tea, your gateway to the rich and diverse universe of tea! Explore a variety of flavors, traditions, and health benefits, whether you're a connoisseur or just starting out. Discover brewing tips, tasting notes, and cultural rituals that elevate every cup. Join us on this aromatic journey and deepen your appreciation for the art of tea!
+                    </p>
+                    <a href="#learn" class="btn btn-primary btn-lg">Learn More</a>
+                <!-- Showcase Image -->
+                </div>
+                <img class="img-fluid d-none d-md-block" src="assets/Tea_Cup.png" alt="">
+            </div>
+        </div>
+     </section>
+
+     <!-- Boxes -->
+      <section class="p-5">
+        <div class="container">
+            <div class="row text-center g-4">
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-snow"></i>
+                            </div>
+                            <h3 class="card-title">
+                                Cold Tea
+                            </h3>
+                            <p class="card-text">
+                                Cold teas are refreshing beverages that highlight the versatility of tea served chilled. Whether steeped over ice or brewed as iced tea, they can be infused with fruits, herbs, and spices. Perfect for warm days, cold teas range from classic black iced tea to vibrant herbal blends, offering endless flavor combinations for a delightful and soothing drink experience.
+                            </p>
+                            <a href="cold.html" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-sun"></i>
+                            </div>
+                            <h3 class="card-title">
+                                Warm Tea
+                            </h3>
+                            <p class="card-text">
+                                Warm teas offer a comforting experience, perfect for any time of day. From robust black to delicate green and fragrant herbal blends, each type brings unique flavors and aromas that enhance relaxation. Enjoyed alone or in a cozy setting, warm teas invite you to savor their richness while providing soothing health benefits in every cup.
+                            </p>
+                            <a href="warm.html" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!-- Learn Section -->
+      <section id="learn" class="p-5 bg-dark text-light">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <img src="assets/Green_Tea.png" class="img-fluid" alt="">
+                </div>
+                <div class="col md p-5">
+                    <h2>Learn About Tea</h2>
+                    <p class="lead">
+                        Tea is more than just a beverage; it's a cultural cornerstone enjoyed around the world. With countless varieties and rich traditions, each cup tells a story of its origin and preparation. Whether you're a casual drinker or a passionate enthusiast, there's always something new to discover about this ancient drink. Click below to explore the fascinating world of tea in detail!
+                    </p>
+                    <p>
+                        Tea, one of the world's oldest and most cherished beverages, has a rich history and a diverse range of flavors and types. Originating in ancient China, tea has evolved into a global phenomenon, with various cultures putting their unique spin on its preparation and consumption. There are six primary types of tea—white, green, oolong, black, dark, and yellow—each offering distinct tastes and health benefits, largely determined by the processing methods used. Beyond flavor, tea is celebrated for its potential health benefits, including antioxidants, relaxation properties, and even improved digestion. Whether you prefer a calming herbal infusion or a robust black tea to kickstart your morning, exploring the world of tea reveals not just a drink, but a cultural experience that connects people across the globe. Dive deeper into its fascinating varieties, brewing techniques, and the art of tea appreciation!
+                    </p>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!-- FAQ Accordion -->
+       <section id="faq" class="p-5">
+        <div class="container">
+            <h2 class="text-center mb-4">
+                Frequently Asked Questions
+            </h2>
+            <div class="accordion accordion-flush" id="faq">
+                <!-- Item 1 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne">
+                        How should I store my tea?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">To keep your tea fresh, store it in a cool, dry place away from light and moisture. Use an airtight container to protect it from air exposure, which can diminish its flavor and aroma.</div>
+                  </div>
+                </div>
+                <!-- Item 2 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo">
+                        What is the best way to brew tea?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">The brewing method varies by tea type:
+                        Green tea: Use water at about 175°F (80°C) and steep for 2-3 minutes.
+                        Black tea: Use boiling water (212°F or 100°C) and steep for 3-5 minutes.
+                        Herbal tea: Use boiling water and steep for 5-7 minutes. Experiment to find your perfect steeping time!</div>
+                  </div>
+                </div>
+                <!-- Item 3-->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree">
+                        What are the health benefits of tea?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Tea is rich in antioxidants and can support heart health, improve mental clarity, and aid digestion. Herbal teas can also provide specific benefits, like calming effects from chamomile or digestive support from peppermint.</div>
+                  </div>
+                </div>
+              </div>
+        </div>
+       </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

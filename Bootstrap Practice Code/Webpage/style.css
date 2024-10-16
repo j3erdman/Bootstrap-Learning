@@ -1,0 +1,9 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.custom-bg {
+    background-color: #28a745; /* Example color */
+}
